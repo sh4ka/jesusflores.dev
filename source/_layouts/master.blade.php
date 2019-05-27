@@ -22,7 +22,7 @@
             <strong>{{ $page->site->title }}</strong><br>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li><a href="/posts">Blog</a></li>
                 <li><a href="https://www.relatoscrudos.com/">Writing(es)</a></li>
                 <li><a href="http://jfsgames.com/">Unity3D</a></li>
                 <li><a href="http://thesoliditydev.com/">Solidity</a></li>
