@@ -2,22 +2,22 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisan-static-demo.netlify.com',
+    'baseUrl' => 'https://www.jesusflores.dev',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'My stuff',
+        'description' => 'The stuff I make',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
-        'twitter' => 'johndoe',
-        'github' => 'johndoe',
+        'name' => 'Jesús Flores',
+        'twitter' => '',
+        'github' => 'sh4ka',
     ],
     'services' => [
-        'analytics' => 'UA-XXXXX-Y',
-        'disqus' => 'artisanstatic',
-        'cloudinary' => 'artisanstatic',
-        'jumprock' => 'artisanstatic',
+        'analytics' => 'UA-140882082-1',
+        'disqus' => 'jesusflores-dev',
+        'cloudinary' => 'dervmg1zk',
+        'jumprock' => 'jesusfloresdev',
     ],
     'collections' => [
         'posts' => [
