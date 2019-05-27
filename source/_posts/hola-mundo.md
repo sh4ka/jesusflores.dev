@@ -3,7 +3,7 @@ title: 'Hola Mundo'
 date: 2019-05-27
 tags:
     - General
-image: code-coder-coding-270348_abgmnv
+image: /blog/posts/code-coder-coding-270348_abgmnv
 ---
 ## De qué va todo esto
 
