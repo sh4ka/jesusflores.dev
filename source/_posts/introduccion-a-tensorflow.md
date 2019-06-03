@@ -34,52 +34,11 @@ Entre su multitud de aplicaciones destacan:
 
 ### AI, un nuevo paradigma de computación
 
-Tradicionalmente el mundo del software ha intentado brindar respuestas a nuestros datos mediante una serie de reglas (código) por ejem
+Tradicionalmente el mundo del software ha intentado brindar respuestas a nuestros datos mediante una serie de reglas 
+(código), por ejemplo: ¿Puedo hacer login con estas credenciales?
+Mediante la IA tratamos de ofrecer reglas a una serie de datos y preguntas, por ejemplo:
+A todas estas personas, con esta serie de datos demográficos, les gusta Avengers, ¿es posible que a esta persona le 
+guste también?
 
+![Nuevo paradigma de computación](image/upload/v1559558485/blog/posts/nuevo-paradigma_nrtzx7.png)
 
-
-### Ejemplo de neurona
-
-**Bold Text**
-
-*Italic Text*
-
-This is [an example](http://example.com/ "Title") inline link.
-
-[This link](http://example.net/) has no title attribute.
-
-Image - Jigsaw logo
-
-![Jigsaw logo](https://cloud.githubusercontent.com/assets/357312/25055001/5603687e-212e-11e7-8fad-0b33dbf7fb71.png)
-
-- Top-level item 1
-    - Nested item
-    - Nested item
-- Top-level item 2
-    - Nested item
-    - Nested item
-- Top-level item 3
-    - Nested item
-    - Nested item
-
-1. Top-level item 1
-    1. Nested item
-    2. Nested item
-2. Top-level item 2
-    1. Nested item
-    2. Nested item
-3. Top-level item 3
-    1. Nested item
-    2. Nested item
-
-Term
-: Description of the term
-: Another description of the term
-
-Term
-Synonym
-: Description of the term
-
-> This is a quote
-
-This is some inline-code: `echo something`
