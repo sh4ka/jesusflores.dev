@@ -1,13 +1,15 @@
 ---
-title: 'Qué es Tensorflow'
+title: 'Introducción a Tensorflow'
 date: 2019-05-28
 tags:
   - tensorflow
-image: /blog/posts/introduccion-a-tensorflow
+image: blog/posts/introduccion-a-tensorflow
 ---
-## Introducción a Tensorflow
+## Qué es Tensorflow
 
-Tensorflow es una librería de código abierto para la computación numérica en Python. Fue desarrollado por Google para proyectos internos, sustituyendo así a un conjunto de utilidades denominadas DistBelief. Tensorflow fue publicado en su primera versión de código abierto el 9 de noviembre de 2015.
+Tensorflow es una librería de código abierto para la computación numérica. Fue desarrollado por Google para proyectos 
+internos, sustituyendo así a un conjunto de utilidades denominadas DistBelief. Tensorflow fue publicado en su primera 
+versión de código abierto el 9 de noviembre de 2015.
 
 ### Primeros pasos con Tensorflow
 
@@ -19,10 +21,6 @@ comenzar los ejercicios se recomienda la instalación basica usando la CPU:
 ```python
 pip install tensorflow
 ```
-
-
-
-
 
 ### Aplicaciones de Tensorflow
 
