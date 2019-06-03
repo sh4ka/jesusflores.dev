@@ -40,5 +40,10 @@ Mediante la IA tratamos de ofrecer reglas a una serie de datos y preguntas, por 
 A todas estas personas, con esta serie de datos demográficos, les gusta Avengers, ¿es posible que a esta persona le 
 guste también?
 
-![Nuevo paradigma de computación](image/upload/v1559558485/blog/posts/nuevo-paradigma_nrtzx7.png)
+![Nuevo paradigma de computación](https://res.cloudinary.com/dervmg1zk/image/upload/v1559558485/blog/posts/nuevo-paradigma_nrtzx7.png)
+
+### Ejemplos de Tensorflow
+
+En el siguiente artículo del blog repasaremos algunos ejemplos de Tensorflow y crearemos nuestra propia neurona.
+¡No os lo perdáis!
 
