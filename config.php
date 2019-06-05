@@ -4,8 +4,8 @@ return [
     'production' => false,
     'baseUrl' => 'https://www.jesusflores.dev',
     'site' => [
-        'title' => 'My stuff',
-        'description' => 'The stuff I make',
+        'title' => 'Blog',
+        'description' => 'Tensorflow y más',
         'image' => 'default-share.png',
     ],
     'owner' => [
