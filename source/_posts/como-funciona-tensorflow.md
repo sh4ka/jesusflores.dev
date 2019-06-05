@@ -3,7 +3,7 @@ title: 'Cómo funciona Tensorflow'
 date: 2019-06-05
 tags:
   - tensorflow
-image: https://res.cloudinary.com/dervmg1zk/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1559762194/blog/posts/cerebro_wn6ema.jpg
+image: https://res.cloudinary.com/dervmg1zk/image/upload/v1559762194/blog/posts/cerebro_wn6ema.jpg
 ---
 ## Cómo funciona Tensorflow
 
