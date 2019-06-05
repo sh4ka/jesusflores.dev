@@ -3,7 +3,7 @@ title: 'Introducción a Tensorflow'
 date: 2019-05-28
 tags:
   - tensorflow
-image: image/upload/c_scale,h_250,w_950/v1559557596/blog/posts/introduccion-a-tensorflow.png
+image: image/upload/v1559557596/blog/posts/introduccion-a-tensorflow
 ---
 ## Qué es Tensorflow
 
