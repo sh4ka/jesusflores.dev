@@ -14,6 +14,9 @@ Estas capas de neuronas siguen una estructura similar a la de una matriz de una 
 denomina *dense* por que están densamente conectadas a la salida de las capa anterior, 
 es decir, cada neurona recibe como entrada la salida de cada una de las neuronas anteriores.
 
+Representación gráfica de una neurona aislada en el cerebro. En un cerebro
+humano hay miles de millones de neuronas conectadas entre sí.
+
 ![Neurona en Tensorflow](https://res.cloudinary.com/dervmg1zk/image/upload/v1559761517/blog/posts/neurona0.png)
 
 ## Cómo funcionan las redes neuronales de Tensorflow
@@ -75,6 +78,6 @@ Te recomiendo también que veas el código desarrollado y comentado [en github](
 Este artículo esta ~~copiado~~ basado en el excelente tutorial que puedes 
 leer completo [aquí](https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1)
 
-Ahora ya estás listo o lista para afrontar el siguiente tutorial en el que
-vamos a desarrollar un sistema básico de reconocimiento de imagenes.
+Ahora ya estás listo o lista para afrontar el siguiente tutorial de Tensorflow en español
+en el que vamos a desarrollar un sistema básico de reconocimiento de imágenes.
 
