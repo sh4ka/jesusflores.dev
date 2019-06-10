@@ -5,22 +5,22 @@ tags:
   - tensorflow
 image: image/upload/v1559763122/blog/posts/blog_posts_cerebro_wn6ema-Sharpened_bisuqe.jpg
 ---
-## Cómo funciona Tensorflow
 
+Como vimos en el [anterior artículo](https://www.jesusflores.dev/posts/introduccion-a-tensorflow/) ,
 Tensorflow es un conjunto de funciones para agilizar el desarrollo de aplicaciones de IA. Una de las funciones más 
 utilizadas es la de crear capas de neuronas, o *dense layers*.
 
-Éstas capas de neuronas siguen una estructura similar a la de una matriz de una dimensión. Se las 
+Estas capas de neuronas siguen una estructura similar a la de una matriz de una dimensión. Se las 
 denomina *dense* por que están densamente conectadas a la salida de las capa anterior, 
 es decir, cada neurona recibe como entrada la salida de cada una de las neuronas anteriores.
 
-![Neurona](https://res.cloudinary.com/dervmg1zk/image/upload/v1559761517/blog/posts/neurona0.png)
+![Neurona en Tensorflow](https://res.cloudinary.com/dervmg1zk/image/upload/v1559761517/blog/posts/neurona0.png)
 
-### Ejemplo de neurona
+## Cómo funciona Tensorflow
 
-En un cerebro, una neurona está conectada a muchas otras por medio de sinapsis. Cuándo una 
+En un cerebro, una neurona está conectada a muchas otras por medio de sinapsis. Cuando una 
 única neurona recibe suficiente estímulo de un número determinado de 'vecinas' se produce 
-su activación. Se podría decir, a grosso modo, que ésto es pensar.
+su activación. Se podría decir, a grosso modo, que esto es pensar.
 
 El código para una única neurona activada mediante la función *sigmoid*, se presenta a 
 continuación:
@@ -41,7 +41,7 @@ print 1 / (1 + exp(-(dot(array([1, 0, 0]), pesos))))
 cuaderno de Google Colab. Para saber qué es Google Colab te recomiendo que leas 
 [este artículo](https://medium.com/@pau.martinez/google-colab-tips-para-principiantes-e39d6e7051d4)
 
-Analizemos paso a paso el código:
+Analicemos paso a paso el código:
 1. Asignamos pesos aleatorios a los datos de entrada.
 2. A continuación tomamos los datos de entrada y los ajustamos por su peso (método _dot_). 
 Pasamos estos datos a la función que calcula la salida de la neurona (más sobre esta función
