@@ -22,7 +22,12 @@ En un cerebro, una neurona está conectada a muchas otras por medio de sinapsis.
 única neurona recibe suficiente estímulo de un número determinado de 'vecinas' se produce 
 su activación. Se podría decir, a grosso modo, que esto es pensar.
 
-### Estructura
+En Tensorflow, usamos una red de neuronas denominadas *dense*. No son 
+más que matrices unidimensionales de una gran cantidad de neuronas 
+conectadas entre sí. Puedes ver una explicación en profundidad en este
+[artículo](https://towardsdatascience.com/build-your-first-deep-learning-classifier-using-tensorflow-dog-breed-example-964ed0689430).
+
+### Estructura de neurona
 
 El código para una única neurona activada mediante la función *sigmoid*, se presenta a 
 continuación:
