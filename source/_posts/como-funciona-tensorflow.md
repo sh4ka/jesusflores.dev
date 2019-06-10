@@ -6,7 +6,7 @@ tags:
 image: image/upload/v1559763122/blog/posts/blog_posts_cerebro_wn6ema-Sharpened_bisuqe.jpg
 ---
 
-Como vimos en el [anterior artículo](https://www.jesusflores.dev/posts/introduccion-a-tensorflow/) ,
+Como vimos en el [anterior artículo](https://www.jesusflores.dev/posts/introduccion-a-tensorflow/),
 Tensorflow es un conjunto de funciones para agilizar el desarrollo de aplicaciones de IA. Una de las funciones más 
 utilizadas es la de crear capas de neuronas, o *dense layers*.
 
@@ -16,11 +16,13 @@ es decir, cada neurona recibe como entrada la salida de cada una de las neuronas
 
 ![Neurona en Tensorflow](https://res.cloudinary.com/dervmg1zk/image/upload/v1559761517/blog/posts/neurona0.png)
 
-## Cómo funciona Tensorflow
+## Cómo funcionan las redes neuronales de Tensorflow
 
 En un cerebro, una neurona está conectada a muchas otras por medio de sinapsis. Cuando una 
 única neurona recibe suficiente estímulo de un número determinado de 'vecinas' se produce 
 su activación. Se podría decir, a grosso modo, que esto es pensar.
+
+### Estructura
 
 El código para una única neurona activada mediante la función *sigmoid*, se presenta a 
 continuación:
