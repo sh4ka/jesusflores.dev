@@ -3,7 +3,7 @@ title: 'Cómo funciona Tensorflow'
 date: 2019-06-05
 tags:
   - tensorflow
-image: https://res.cloudinary.com/dervmg1zk/image/upload/v1559762194/blog/posts/cerebro_wn6ema.jpg
+image: https://res.cloudinary.com/dervmg1zk/image/upload/v1559763122/blog/posts/blog_posts_cerebro_wn6ema-Sharpened_bisuqe
 ---
 ## Cómo funciona Tensorflow
 
@@ -39,6 +39,35 @@ print 1 / (1 + exp(-(dot(array([1, 0, 0]), pesos))))
 
 [Aquí](https://drive.google.com/open?id=1rL1zFxsVWMgbgmdIx6XpamIRnFVV-kiS) tienes el 
 cuaderno de Google Colab. Para saber qué es Google Colab te recomiendo que leas 
-[éste artículo](https://medium.com/@pau.martinez/google-colab-tips-para-principiantes-e39d6e7051d4)
+[este artículo](https://medium.com/@pau.martinez/google-colab-tips-para-principiantes-e39d6e7051d4)
 
+Analizemos paso a paso el código:
+1. Asignamos pesos aleatorios a los datos de entrada.
+2. A continuación tomamos los datos de entrada y los ajustamos por su peso (método _dot_). 
+Pasamos estos datos a la función que calcula la salida de la neurona (más sobre esta función
+más adelante).
+3. Calculamos el error teniendo en cuenta la salida de la neurona y su salida esperada.
+4. Ajustamos los pesos.
+5. En este caso repetimos la operación 10000 veces.
+
+La fórmula para calcular la salida de la neurona no es más que el resultado de dos operaciones:
+1. Tomamos el sumatorio de el peso por el valor de entrada.
+2. Normalizamos los valores de forma que tengamos una salida entre 0 y 1.
+Para ello usamos la función matemática [*Sigmoid*](https://es.wikipedia.org/wiki/Funci%C3%B3n_sigmoide).
+
+### Fórmula para ajustar los pesos
+Los pesos se ajustan para que el valor del paso 3 (valor del error) 
+modifique el cálculo del siguiente paso. Es decir, que la diferencia 
+entre lo que hemos errado en la predicción con respecto al peso va a ser 
+tenido en cuenta en la próxima operación.
+
+`ajuste de peso = error * entrada * función sigmoide` 
+
+Te recomiendo también que veas el código desarrollado y comentado [en github](https://github.com/miloharper/simple-neural-network).
+
+Este artículo esta ~~copiado~~ basado en el excelente tutorial que puedes 
+leer completo [aquí](https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1)
+
+Ahora ya estás listo o lista para afrontar el siguiente tutorial en el que
+vamos a desarrollar un sistema básico de reconocimiento de imagenes.
 
